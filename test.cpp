@@ -1,6 +1,13 @@
 #include <iostream>
 #include <iomanip>
 
+//just for test
+void func(int& x) {
+    for (int i=0;i<10;++i) {
+        do(i * x);
+    }
+}
+
 int main() {
     // 各项的数据
     int processSpecification = 105;
